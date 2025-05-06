@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Homepage Clone</title>
+
+  <!-- CSS intégré directement dans la balise <style> -->
+  <style>
+    /* Réinitialisation */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .nav-left a,
+    .nav-right a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #555;
+    }
+
+    .menu-icon,
+    .user-icon {
+      width: 24px;
+      height: 24px;
+      margin-left: 10px;
+    }
+
+    /* CONTENU PRINCIPAL */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .logo {
+      margin-bottom: 30px;
+      width: 272px;
+    }
+
+    .search-container {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-bar {
+      width: 100%;
+      padding: 10px 20px;
+      border-radius: 24px;
+      border: 1px solid #dcdcdc;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .search-bar:hover {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border: 1px solid #c6c6c6;
+      background-color: #f1f1f1;
+    }
+
+    /* PIED DE PAGE */
+    .footer {
+      background-color: #f2f2f2;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="#">About</a>
+      <a href="#">Store</a>
+    </div>
+    <div class="nav-right">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <img src="https://www.svgrepo.com/show/506673/menu.svg" alt="Menu" class="menu-icon" />
+      <img src="https://www.svgrepo.com/show/506612/user.svg" alt="User Icon" class="user-icon" />
+    </div>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+    <!-- Logo -->
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+
+    <!-- Barre de recherche -->
+    <div class="search-container">
+      <input type="text" class="search-bar" placeholder="Search Google" />
+    </div>
+
+    <!-- Boutons -->
+    <div class="buttons">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </main>
+
+  <!-- PIED DE PAGE -->
+  <footer class="footer">
+    <div class="footer-left">
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search works</a>
+    </div>
+    <div class="footer-right">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </div>
+  </footer>
+
+</body>
+</html>
