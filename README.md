@@ -19,6 +19,6 @@ It was created as part of a learning exercise to practice basic web layout and d
 
 ## 📂 How to Use
 
-1. Copy&Paste: https://drixyz13.github.io/google-homepage/
-2. Ctrl+U (Viewing Source Code)
-3. Rightclick Inspect the page for a deep viewing experience (Optional)
+- Copy&Paste: https://drixyz13.github.io/google-homepage/
+- Ctrl+U (Viewing Source Code)
+- Rightclick Inspect the page for a deep viewing experience (Optional)
