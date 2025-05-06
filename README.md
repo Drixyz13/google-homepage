@@ -21,4 +21,4 @@ It was created as part of a learning exercise to practice basic web layout and d
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/google-homepage.git
+   git clone https://github.com/Drixyz13/google-homepage.git 
