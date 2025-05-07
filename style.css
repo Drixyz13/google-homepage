@@ -3,6 +3,10 @@ body{
   font-family: 'Arimo', sans-serif;
   margin: 0;
   padding: 0;
+  display:flex;
+flex-direction:column;
+justify-content:space-between;
+height:100vh;
 }
  
 /* Partie header */
@@ -48,7 +52,7 @@ header .right p.user{
     display: flex;
     flex-direction: column;
     align-items:center ;
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .main .form-group{
@@ -65,7 +69,6 @@ header .right p.user{
     width: 100%;
 }
 .main .form-group input:hover, .main .form-group input:focus{
-  -webk-webkit-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   -moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
   border:none;
@@ -97,7 +100,7 @@ header .right p.user{
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  margin-top: 877px;
+  /* margin-top: 877px; */
 }
 
 .footer a {
